@@ -52,6 +52,7 @@ class TaskBoard extends Component {
 
   renderBoard() {
     var test = null;
+    var test1 = null;
     return (
       <Grid container spacing={2}>
         {STATUS.map((status, index) => {
