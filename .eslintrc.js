@@ -40,6 +40,7 @@ module.exports = {
     "no-param-reassign": 0,
     "import/no-useless-path-segments": 0,
     "import/prefer-default-export": 0,
+    "react/jsx-uses-vars": 2,
   },
   plugins: ["prettier"],
 };
