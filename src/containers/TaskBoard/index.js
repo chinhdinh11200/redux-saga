@@ -51,8 +51,6 @@ class TaskBoard extends Component {
   };
 
   renderBoard() {
-    var test = null;
-    var test1 = null;
     return (
       <Grid container spacing={2}>
         {STATUS.map((status, index) => {
@@ -86,12 +84,7 @@ class TaskBoard extends Component {
     return (
       <div className={classes.taskboard}>
         <Box mt={2}>
-          <Button
-            variant="contained"
-            color="secondary"
-            className={classes.button}
-            onClick={this.handleOpen}
-          >
+          <Button  variant="contained" color="secondary" className={classes.button} onClick={this.handleOpen} >
             <AddIcon /> thêm mới công việc
           </Button>
         </Box>

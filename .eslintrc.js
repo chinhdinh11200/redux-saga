@@ -31,7 +31,7 @@ module.exports = {
     "react/forbid-props-types": 0,
     "react/require-default-props": 0,
     "react/jsx-indent": 0,
-    "prettier/prettier": ["error"],
+    "prettier/prettier": ["warn"],
     "react/prefer-stateless-function": 0,
     "no-unused-vars": 1,
     "import/extensions": 0,
